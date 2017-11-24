@@ -1,0 +1,31 @@
+{
+  "name": "coderpourleweb.ca",
+  "private": true,
+  "homepage": "https://www.coderpourleweb.ca",
+  "version": "0.1.0",
+  "description": "Le site web de coderpourleweb.ca",
+  "main": "./bin/watch",
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "node bin/watch",
+    "build": "node bin/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareniel/coderpourleweb-www.git"
+  },
+  "author": "kareniel <hello@jonathandupre.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kareniel/coderpourleweb-www/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "budo": "^10.0.4",
+    "mkdirp": "^0.5.1",
+    "postcss": "^6.0.14",
+    "precss": "^2.0.0",
+    "pug": "^2.0.0-rc.4",
+    "sugarss": "^1.0.1"
+  }
+}
