@@ -1,5 +1,8 @@
 {
   "name": "coderpourleweb.ca",
+  "engines" : { 
+    "node" : ">=8.9" 
+  },
   "private": true,
   "homepage": "https://www.coderpourleweb.ca",
   "version": "0.1.0",
