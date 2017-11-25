@@ -3,10 +3,25 @@ html(lang='fr-CA')
   head
     meta(charset='utf-8')
     title Coder pour le web
-    meta(name='description', content='Coder pour le web')
-    meta(name='author', content='Jonathan Dupré')
-    link(rel='stylesheet', href='style.css')
+    meta(name='description' content='Coder pour le web')
+    meta(name='author' content='Jonathan Dupré')
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600,900")
+    link(rel='stylesheet' href='style.css')
   body
-    block body
+    header
+      h1 Coder pour le web
+
+      nav
+        ul
+          li
+            a(href="/ressources") Ressources
+          li
+            a(href="/") Blog
+          li
+            a(href="/a-propos") À propos
+
+    .content
+
+      block content
 
     script(src='bundle.js')
